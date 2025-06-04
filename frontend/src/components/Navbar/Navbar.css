@@ -1,0 +1,120 @@
+.navbar {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 60%;
+    z-index: 1;
+    border-radius: 50px;
+    padding-left: 15%;
+    position: fixed;
+    top:0;
+    right:50px;
+    background-color: white;
+    /* margin-bottom: 10vh; */
+}
+
+.navbar .logo {
+    width: 150px;
+}
+
+
+
+
+.navbar-search-icon{
+position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: #FF4C24;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+.navbar button {
+    background: tomato;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    /* border: 1px solid #FF4C24; */
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar button:hover {
+    transform: scale(1.03);
+    box-shadow: 0.1px 0.1px 5px rgb(54, 53, 53);
+}
+
+.navbar-profile{
+    position: relative;
+
+}
+.navbar-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+    /* background-color: white; */
+}
+.navbar-profile-dropdown li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.navbar-profile-dropdown img{
+    width: 20px;
+}
+.navbar-profile-dropdown li:hover{
+    color: #FF4C24;
+}
+.navbar-profile:hover .navbar-profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    /* border: 1px solid tomato; */
+    outline: 2px solid white;
+    list-style: none;
+}
+
+@media (max-width:1050px) {
+    .navbar .logo {
+        width: 140px;
+    }
+
+   
+
+    
+    .navbar button {
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width:900px) {
+    .navbar .logo {
+        width: 120px;
+    }
+
+   
+    
+
+    .navbar button {
+        font-size: 15px;
+        padding: 7px 20px;
+    }
+}
+
+@media (max-width:750px) {
+   
+}
