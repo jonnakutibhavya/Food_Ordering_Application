@@ -46,35 +46,3 @@ A responsive and user-friendly food ordering platform that allows users to brows
 1. Clone the repository:
    ```bash
    git clone https://github.com/Kuldeepagrahari/Hungry-Hub.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd hungry-hub
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   cd client && npm install
-   ```
-
-4. Set up environment variables:
-   - Create a `.env` file in the root directory.
-   - Add the following variables:
-     ```env
-     PORT=5000
-     MONGO_URI=<Your MongoDB Connection String>
-     STRIPE_SECRET_KEY=<Your Stripe Secret Key>
-     CLOUDINARY_NAME=<Your Cloudinary Cloud Name>
-     CLOUDINARY_API_KEY=<Your Cloudinary API Key>
-     CLOUDINARY_API_SECRET=<Your Cloudinary API Secret>
-     ```
-
-5. Run the application:
-   ```bash
-   npm run dev
-   ```
-
-6. Access the application at `localhost:5173`.
-
