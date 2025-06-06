@@ -41,8 +41,4 @@ A responsive and user-friendly food ordering platform that allows users to brows
 
 ---
 
-## Installation and Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Kuldeepagrahari/Hungry-Hub.git
